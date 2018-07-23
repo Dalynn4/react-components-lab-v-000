@@ -39,7 +39,7 @@ export class InFrontOfYou extends Component {
 export class ButcherShop extends Component {
   render() {
     return (
-      { BUTCHER_PRODUCTS.map(meat => "<li>{meat}</li>")}
+      { BUTCHER_PRODUCTS.map(meat => "<li>{meat}</li>") }
     )
   }
 }
